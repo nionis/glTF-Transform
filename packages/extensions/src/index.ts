@@ -23,6 +23,10 @@ import { KHRMeshQuantization } from './khr-mesh-quantization/index.js';
 import { KHRTextureBasisu } from './khr-texture-basisu/index.js';
 import { KHRTextureTransform } from './khr-texture-transform/index.js';
 import { KHRXMP } from './khr-xmp-json-ld/index.js';
+import VRM0_VRM from './vrm/VRM0/vrm0-vrm.js';
+import VRMC_VRM from './vrm/VRM1/vrm1-vrm.js';
+import VRMC_MATERIALS_MTOON from './vrm/VRM1/vrm1-materials-mtoon.js';
+import VRMC_SPRINGBONE from './vrm/VRM1/vrm1-springbone.js';
 
 export const KHRONOS_EXTENSIONS: (typeof Extension)[] = [
 	KHRDracoMeshCompression,
@@ -52,6 +56,10 @@ export const ALL_EXTENSIONS: (typeof Extension)[] = [
 	EXTMeshoptCompression,
 	EXTTextureAVIF,
 	EXTTextureWebP,
+	VRM0_VRM,
+	VRMC_VRM,
+	VRMC_MATERIALS_MTOON,
+	VRMC_SPRINGBONE,
 	...KHRONOS_EXTENSIONS,
 ];
 

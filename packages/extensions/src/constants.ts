@@ -22,3 +22,7 @@ export const KHR_MESH_QUANTIZATION = 'KHR_mesh_quantization';
 export const KHR_TEXTURE_BASISU = 'KHR_texture_basisu';
 export const KHR_TEXTURE_TRANSFORM = 'KHR_texture_transform';
 export const KHR_XMP_JSON_LD = 'KHR_xmp_json_ld';
+export const VRM0 = "VRM";
+export const VRMC_VRM = "VRMC_vrm";
+export const VRMC_MATERIALS_MTOON = "VRMC_materials_mtoon";
+export const VRMC_SPRINGBONE = "VRMC_springBone";

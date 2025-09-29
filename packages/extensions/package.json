@@ -36,10 +36,10 @@
 	],
 	"dependencies": {
 		"@gltf-transform/core": "^4.2.1",
-		"ktx-parse": "^1.0.1",
 		"@pixiv/types-vrm-0.0": "2.0.6",
 		"@pixiv/types-vrmc-materials-mtoon-1.0": "2.0.6",
-		"@pixiv/types-vrmc-vrm-1.0": "2.0.6"
+		"@pixiv/types-vrmc-vrm-1.0": "2.0.6",
+		"ktx-parse": "^1.0.1"
 	},
 	"files": [
 		"dist/",

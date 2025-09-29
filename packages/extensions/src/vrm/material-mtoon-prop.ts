@@ -1,12 +1,12 @@
 import {
   ExtensionProperty,
-  IProperty,
-  Nullable,
+  type IProperty,
+  type Nullable,
   PropertyType,
   Texture,
   TextureInfo,
   TextureChannel,
-  vec3,
+  type vec3,
   ColorUtils,
 } from "@gltf-transform/core";
 import { VRM0 as VRM0NAME } from "./VRM0/constants.js";

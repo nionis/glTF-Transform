@@ -1,5 +1,5 @@
-import * as VRM0Type from "@pixiv/types-vrm-0.0";
-import * as VRM1Type from "@pixiv/types-vrmc-vrm-1.0";
+import type * as VRM0Type from "@pixiv/types-vrm-0.0";
+import type * as VRM1Type from "@pixiv/types-vrmc-vrm-1.0";
 
 export enum PropertyType {
   HUMANOID = "VRMC_vrm.humanoid",

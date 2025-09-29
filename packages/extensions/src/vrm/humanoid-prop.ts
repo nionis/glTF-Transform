@@ -1,10 +1,10 @@
 import {
-  IProperty,
-  Nullable,
+  type IProperty,
+  type Nullable,
   ExtensionProperty,
   PropertyType,
 } from "@gltf-transform/core";
-import * as VRM1Def from "@pixiv/types-vrmc-vrm-1.0";
+import type * as VRM1Def from "@pixiv/types-vrmc-vrm-1.0";
 import { VRM0 as VRM0NAME } from "./VRM0/constants.js";
 import { VRMC_VRM as VRM1NAME } from "./VRM1/constants.js";
 import { HumanoidHumanBoneProp } from "./humanoid-human-bone-prop.js";

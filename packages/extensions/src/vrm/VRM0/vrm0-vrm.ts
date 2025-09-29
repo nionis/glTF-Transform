@@ -4,8 +4,8 @@ import {
   TextureInfo,
   WriterContext,
 } from "@gltf-transform/core";
-import * as VRM0Type from "@pixiv/types-vrm-0.0";
-import * as VRM1Type from "@pixiv/types-vrmc-vrm-1.0";
+import type * as VRM0Type from "@pixiv/types-vrm-0.0";
+import type * as VRM1Type from "@pixiv/types-vrmc-vrm-1.0";
 import VRM0Prop from "./properties/vrm0-vrm-prop.js";
 import { VRM0 as NAME } from "./constants.js";
 import * as VRMConstants from "../constants.js";

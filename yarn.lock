@@ -1743,6 +1743,9 @@ __metadata:
   resolution: "@gltf-transform/extensions@workspace:packages/extensions"
   dependencies:
     "@gltf-transform/core": "npm:^4.2.1"
+    "@pixiv/types-vrm-0.0": "npm:2.0.6"
+    "@pixiv/types-vrmc-materials-mtoon-1.0": "npm:2.0.6"
+    "@pixiv/types-vrmc-vrm-1.0": "npm:2.0.6"
     ktx-parse: "npm:^1.0.1"
   languageName: unknown
   linkType: soft
@@ -2665,6 +2668,27 @@ __metadata:
   dependencies:
     "@octokit/openapi-types": "npm:^24.2.0"
   checksum: 10c0/f66a401b89d653ec28e5c1529abdb7965752db4d9d40fa54c80e900af4c6bf944af6bd0a83f5b4f1eecb72e3d646899dfb27ffcf272ac243552de7e3b97a038d
+  languageName: node
+  linkType: hard
+
+"@pixiv/types-vrm-0.0@npm:2.0.6":
+  version: 2.0.6
+  resolution: "@pixiv/types-vrm-0.0@npm:2.0.6"
+  checksum: 10c0/9fafb3ba4e22d51cea0eafe54d3a5c620478e3d900c0b776be19d0926cb066c27f5be3fb080150d9e1a83eb9cd306f5207ec31a7b80eeed43361c2734c882e8f
+  languageName: node
+  linkType: hard
+
+"@pixiv/types-vrmc-materials-mtoon-1.0@npm:2.0.6":
+  version: 2.0.6
+  resolution: "@pixiv/types-vrmc-materials-mtoon-1.0@npm:2.0.6"
+  checksum: 10c0/e8cdb894f3fa00785376d0e72eae7b32b1c050923eced1024b6dec9ce631f0d30a9de8bada12f49599ddbdbcc6cb65320fe728ce26c69b35dca0da4d96355c3d
+  languageName: node
+  linkType: hard
+
+"@pixiv/types-vrmc-vrm-1.0@npm:2.0.6":
+  version: 2.0.6
+  resolution: "@pixiv/types-vrmc-vrm-1.0@npm:2.0.6"
+  checksum: 10c0/1fd12e503a7471a685826a88fba20da16ac0871d3903d72edce3a5cad69e87133c13466f9fed2ecafadd871692de8fcf1cc1e21c3509f17a03be5bf5688ab8bd
   languageName: node
   linkType: hard
 

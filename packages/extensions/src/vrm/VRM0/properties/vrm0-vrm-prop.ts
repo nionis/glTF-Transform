@@ -1,10 +1,10 @@
 import {
   ExtensionProperty,
-  IProperty,
-  Nullable,
+  type IProperty,
+  type Nullable,
   PropertyType,
 } from "@gltf-transform/core";
-import * as VRM0Type from "@pixiv/types-vrm-0.0";
+import type * as VRM0Type from "@pixiv/types-vrm-0.0";
 import { VRM0 as NAME } from "../constants.js";
 import VRM0MetaProp from "./vrm0-meta-prop.js";
 import VRM0HumanoidProp from "./vrm0-humanoid-prop.js";

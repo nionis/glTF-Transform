@@ -1,7 +1,7 @@
 import {
   ExtensionProperty,
-  IProperty,
-  Nullable,
+  type IProperty,
+  type Nullable,
   PropertyType,
   Texture,
   TextureChannel,
